@@ -1,0 +1,88 @@
+.main {
+  position: relative;
+  top: 70rpx;
+}
+.content {
+  width: 90%;
+  height: 350rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 40rpx;
+}
+.content-img image {
+  margin-right: 15px;
+  float: left;
+  position: relative;
+  top: -10rpx;
+  width: 220rpx;
+  height: 220rpx;
+  border-radius: 10rpx;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.content-text {
+  height: 180rpx;
+  padding: 10rpx 0;
+  float: left;
+  width: 60%;
+  
+}
+.title {
+  width: 100%;
+  height: 60rpx;
+  font-weight: 700;
+  font-size: 35rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+.describe {
+  width: 100%;
+  height: 77rpx;
+  color: gray;
+  font-size: 27rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.date {
+  float: right;
+  font-size: 27rpx;
+  color: gray;
+}
+#editbtn{
+  padding: 10rpx;
+  width: 140rpx;
+  font-size: 26rpx;
+  float: left;
+  margin: 0;
+  margin-left: 10%;
+  margin-right: 9%;
+  background-color: #f04f54;
+}
+#deletebtn{
+  padding: 10rpx;
+  width: 140rpx;
+  font-size: 26rpx;
+  margin: 0;
+  /* margin-left: 25%; */
+  background-color: #f04f54;
+}
+#publishbtn{
+  float: left;
+  padding: 10rpx;
+  width: 140rpx;
+  font-size: 26rpx;
+  margin: 0;
+  background-color: #f04f54;
+  margin-left: 8%;
+}
+.btnview{
+  width: 100%;
+  /* height: 100rpx; */
+  float: left;
+  margin-top: 30rpx;
+  text-align: center;
+}

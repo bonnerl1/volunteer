@@ -1,0 +1,9 @@
+<!-- <view class="title"> 奖品兑换</view> -->
+<view>
+  <view class="prize" wx:for="{{list}}" wx:key="index">
+    <image src="{{item.image}}"></image>
+    <view class="prize-text">{{item.name1}}</view>
+    <view class="integral">所需积分：{{item.integral}}</view>
+    <button  id="btn" bindtap="click">点击兑换</button>
+  </view>
+</view>

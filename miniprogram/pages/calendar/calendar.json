@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "calender":"../../components/calender/calender"
+  },
+  "navigationStyle": "default",
+	"enablePullDownRefresh": true,
+	"navigationBarTitleText": "活动日历"
+}

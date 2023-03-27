@@ -1,0 +1,85 @@
+<view class="head">
+  <view>
+    <image src="../../images/manager2.png" class="img"></image>
+  </view>
+  <view class="text">
+    <view class="root">系统管理员</view>
+    <view class="date">上次登录日期：{{time}}</view>
+  </view>
+</view>
+<view class="center">
+  <view class="content">
+    <view class="num">21</view>
+    <view class="name">活动数</view>
+  </view>
+  <view class="content">
+    <view class="num">12</view>
+    <view class="name">预约数</view>
+  </view>
+  <view class="content">
+    <view class="num">32</view>
+    <view class="name">用户</view>
+  </view>
+  <view class="content">
+    <view class="num">16</view>
+    <view class="name">文章数</view>
+  </view>
+</view>
+<view class="function">
+  <view class="fun_title">
+    <image src="../../images/manager/mang-title.png" class="titleimg"></image> 功能管理
+  </view>
+  <navigator class="funcontent" url="/pages/actmang/actmang">
+    <view>
+      <image class="imga" src="../../images/manager/activity.png"></image>
+    </view>
+    <view class="fun_text">
+      活动审核
+    </view>
+  </navigator>
+  <view class="funcontent">
+    <view>
+      <image class="imga" src="../../images/manager/mannger.png"></image>
+    </view>
+    <view class="fun_text">
+      用户管理
+    </view>
+  </view>
+  <view class="funcontent">
+    <view>
+      <image class="imga" src="../../images/manager/content.png"></image>
+    </view>
+    <view class="fun_text">
+      内容管理
+    </view>
+  </view>
+</view>
+<view style="margin-top: 30rpx;">
+  <view class="content2">
+    <image src="../../images/manager/edit.png" class="imga2"></image>
+    编辑 - 关于我们
+    <view class="right">></view>
+  </view>
+  <view class="content2">
+    <image src="../../images/manager/edit2.png" class="imga2"></image>
+    编辑 - 管理员资料
+    <view class="right">></view>
+  </view>
+  <view class="content2">
+    <image src="../../images/manager/data.png" class="imga2"></image>
+    小程序二维码
+    <view class="right">></view>
+  </view>
+</view>
+<view style="margin-top: 30rpx;">
+  <view class="content2">
+    <image src="../../images/manager/make.png" class="imga2"></image>
+    管理员操作日志
+    <view class="right">></view>
+  </view>
+  <view class="content2">
+    <image src="../../images/manager/set.png" class="imga2"></image>
+    设置
+    <view class="right">></view>
+  </view>
+</view>

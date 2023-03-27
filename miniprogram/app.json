@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/release/release",
+    "pages/calendar/calendar",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/publish/publish",
+    "pages/train/train",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/Ranking/Ranking",
+    "pages/register/register",
+    "pages/means/means",
+    "pages/about/about",
+    "pages/manage/manage",
+    "pages/login1/login1",
+    "pages/actmang/actmang",
+    "pages/editact/editact"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序志愿活动地点的效果展示" 
+    }
+  },
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f04f54",
+    "navigationBarTitleText": "志愿者服务平台",
+    "navigationBarTextStyle": "white",
+    "navigationBarTextSize": "20px"
+  },
+  "tabBar": {
+		"custom": false,
+		"backgroundColor": "#fefefe",
+		"color": "#999999",
+		"selectedColor": "#00A8C1",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/images/tabbar/home.jpg",
+				"selectedIconPath": "/images/tabbar/home_cur.jpg"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"text": "积分商城",
+				"iconPath": "/images/tabbar/cate1.jpg",
+				"selectedIconPath": "/images/tabbar/cate1_cur.jpg"
+			},
+			{
+				"pagePath": "pages/calendar/calendar",
+				"text": "活动日历",
+				"iconPath": "/images/tabbar/day.jpg",
+				"selectedIconPath": "/images/tabbar/day_cur.jpg"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "/images/tabbar/my.jpg",
+				"selectedIconPath": "/images/tabbar/my_cur.jpg"
+			}
+		]
+	},
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

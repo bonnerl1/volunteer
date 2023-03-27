@@ -1,0 +1,21 @@
+<view class="headtext"> 志愿者服务平台</view>
+<form bindsubmit="btnsub">
+  <view class="login-img">
+    <image src="../../images/head1.jpg"></image>
+  </view>
+  <view class="login">
+    <view class="text">
+      用户名
+    </view>
+    <input name="name" placeholder="请输入用户名"></input>
+  </view>
+  <view class="login">
+    <view class="text">
+      密码
+    </view>
+    <input name="password" placeholder="请输入密码" type="password"></input>
+  </view>
+  <button type="primary" form-type="submit"  id="loginbtn">登录</button>
+  <button type="primary" form-type="reset"  id="resetbtn">重置</button>
+  <navigator class="register" url="/pages/register/register">没有账号？点击立即注册</navigator>
+</form>

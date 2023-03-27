@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+  "navigationStyle": "default",
+	"enablePullDownRefresh": true,
+	"navigationBarTitleText": "积分商城"
+}

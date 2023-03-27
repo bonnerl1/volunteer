@@ -1,0 +1,16 @@
+<view class="search">
+<input class="int" model:value="{{value}}" placeholder="请输入活动标题"></input>
+<button id="find" bindtap="search" >搜索</button>
+</view>
+<view class="main">
+  <navigator class="content" wx:for="{{datalist}}" wx:key="{{index}}" url="/pages/detail/detail?id={{item._id}}">
+    <view class="content-img">
+      <image src="{{item.image}}"></image>
+    </view>
+    <view class="content-text">
+    <view class="title">{{item.title}}</view>
+    <view class="describe">{{item.content}}</view>
+    <view class="date">{{item.date}}</view>
+    </view>
+  </navigator>
+</view>

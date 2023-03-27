@@ -1,0 +1,2 @@
+<calender></calender> 
+<button type="primary" bindtap="click" id="btn">打卡签到</button>

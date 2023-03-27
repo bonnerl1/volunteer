@@ -1,0 +1,32 @@
+<view class="headtext"> 志愿者服务平台</view>
+<form bindsubmit="btnsub">
+  <view class="login-img">
+    <image src="{{url}}"></image>
+  </view>
+  <view class="login" style="border-top: none;margin-bottom: 10rpx; border-bottom: none;">
+    <view class="text1">
+      头像
+    </view>
+    <button type="primary" bindtap="upload"  id="down">点击上传</button>
+  </view>
+  <view class="login">
+    <view class="text">
+      用户名
+    </view>
+    <input name="name" placeholder="请输入用户名"></input>
+  </view>
+  <view class="login">
+    <view class="text">
+      密码
+    </view>
+    <input name="password" placeholder="请输入密码" type="password"></input>
+  </view>
+  <view class="login">
+    <view class="text">
+      密码
+    </view>
+    <input name="password1" placeholder="请再次输入密码" type="password"></input>
+  </view>
+  <button type="primary" form-type="submit"  id="loginbtn">注册</button>
+  <button type="primary" form-type="reset"  id="resetbtn">重置</button>
+</form>

@@ -1,0 +1,1 @@
+"E:\微信web开发者工具\cli.bat" cloud functions deploy --e base-2gz0qi77355c6650 --n quickstartFunctions --r --project "F:\web前端\前端学习案例\微信小程序\volunteer" --report_first && "E:\微信web开发者工具\cli.bat" cloud functions deploy --e dev-4g6mdqy7fe3661ba --n quickstartFunctions --r --project "F:\web前端\前端学习案例\微信小程序\volunteer" --report

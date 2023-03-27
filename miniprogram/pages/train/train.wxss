@@ -1,0 +1,20 @@
+video {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20rpx;
+}
+.train{
+  width: 100%;
+  margin:30rpx 0 ;
+  text-align: center;
+}
+.text{
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+  color: rgb(78, 75, 75);
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-size: 35rpx;
+  color: rgb(44, 44, 44);
+  font-weight: 700;
+}

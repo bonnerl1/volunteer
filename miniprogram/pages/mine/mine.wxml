@@ -1,0 +1,36 @@
+<view class="head">
+  <image class="img" src="../../images/my_index_bg.png"></image>
+  <navigator class="user" url="../login/login">
+    <image class="userimg" src="{{imageurl}}"></image>
+    <view>{{username}}</view>
+  </navigator>
+</view>
+<view class="Integral" style="width: 706rpx; height: 100rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+  <image class="Integral-img" src="../../images/mine/integral.jpg"></image>
+  <view class="Integral-text">我的积分:{{Integral}}</view>
+</view>
+<view class="Integral" bindtap="activity">
+  <image class="Integral-img" src="../../images/mine/activity.jpg"></image>
+  <view class="Integral-text">我的活动</view>
+  <view class="logo">></view>
+</view>
+<view class="Integral" bindtap="means">
+  <image class="Integral-img" src="../../images/mine/info.jpg"></image>
+  <view class="Integral-text">修改个人资料</view>
+  <view class="logo">></view>
+</view>
+<navigator class="Integral" url="/pages/about/about">
+  <image class="Integral-img" src="../../images/mine/about.jpg"></image>
+  <view class="Integral-text">关于我们</view>
+  <view class="logo">></view>
+</navigator>
+<navigator class="Integral" url="/pages/login1/login1">
+  <image class="Integral-img" src="../../images/mine/manage.jpg"></image>
+  <view class="Integral-text">后台管理系统</view>
+  <view class="logo">></view>
+</navigator>
+<view class="Integral" bindtap="set">
+  <image class="Integral-img" src="../../images/mine/set.jpg"></image>
+  <view class="Integral-text">设置</view>
+  <view class="logo">></view>
+</view>

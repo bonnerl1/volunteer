@@ -1,0 +1,35 @@
+<view class="head">
+  <image src="../../images/head.jpg"></image>
+</view>
+<view class="center">
+  <view class="center-img">
+    <navigator class="center-nav" url="/pages/search/search">
+      <image src="../../images/menu/info.jpg"></image>
+      <view class="center-text">搜索</view>
+    </navigator>
+    <navigator class="center-nav" url="/pages/Ranking/Ranking">
+      <image src="../../images/menu/integral.jpg"></image>
+      <view class="center-text">积分榜</view>
+    </navigator>
+    <navigator class="center-nav" url="/pages/train/train">
+      <image src="../../images/menu/train.jpg"></image>
+      <view class="center-text">志愿公益</view>
+    </navigator>
+    <navigator class="center-nav" url="/pages/publish/publish">
+      <image src="../../images/menu/release.jpg"></image>
+      <view class="center-text">活动发布</view>
+    </navigator>
+  </view>
+</view>
+<view class="main">
+  <navigator class="content" wx:for="{{datalist}}" wx:key="{{index}}" url="/pages/detail/detail?id={{item._id}}">
+    <view class="content-img">
+      <image src="{{item.image}}"></image>
+    </view>
+    <view class="content-text">
+      <view class="title">{{item.title}}</view>
+      <view class="describe">{{item.content}}</view>
+      <view class="date">{{item.date}}</view>
+    </view>
+  </navigator>
+</view>

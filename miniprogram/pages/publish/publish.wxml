@@ -1,0 +1,36 @@
+<form bindsubmit="btnsub">
+  <view class="content">
+    <view class="text">活动标题</view>
+    <input name="title" class="containe" placeholder="请输入活动标题"></input>
+  </view>
+  <view class="content">
+    <view class="text">招募对象</view>
+    <input name="object" class="containe" placeholder="请输入招募对象"></input>
+  </view>
+  <view class="content">
+    <view class="text">活动时间</view>
+    <input name="time" class="containe" placeholder="请输入活动时间"></input>
+  </view>
+  <view class="content">
+    <view class="text">活动地点</view>
+    <input name="place" class="containe" placeholder="请输入活动地点"></input>
+    <map id="map"  show-location="true"></map>
+  </view>
+  <view class="content">
+    <view class="text">联系人员</view>
+    <input name="contacts" class="containe" placeholder="请输入联系人员"></input>
+  </view>
+  <view class="content">
+    <view class="text">联系方式</view>
+    <input name="phone" class="containe" placeholder="请输入联系方式"></input>
+  </view>
+  <view class="content">
+    <view class="text" style="top: 0rpx;">活动内容</view>
+    <textarea name="content" cols="30" rows="10" class="containe" placeholder="请输入活动内容（限300字" auto-height="{{auto_height}}"bindblur='areablur' bindfocus='areafocus' maxlength="300"></textarea>
+  </view>
+  <view class="text1" >活动照片上传</view>
+  <button type="primary" bindtap="upload" id="upload">点击上传</button>
+  <image src="{{url}}" wx:if="{{status}}"></image>
+  <button form-type="submit" type="primary" style="margin-bottom: 20rpx;" id="publishbtn">发布活动</button>
+  <button form-type="reset" type="primary" id="resetbtn">重置</button>
+</form>

@@ -1,0 +1,60 @@
+form{
+  background-color: #fff;
+  width: 90%;
+  margin: 30rpx auto;
+  padding-top: 20rpx;
+  padding-bottom: 40rpx;
+  border-radius: 20rpx;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.containe{
+  padding: 5rpx;
+  font-size: 27rpx;
+  border-radius: 15rpx;
+  width: 70%;
+}
+.text{
+  float: left;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  font-weight: 700;
+  position: relative;
+  top: 7rpx;
+}
+.content{
+  padding: 20rpx;
+  border-bottom: 1rpx solid gray;
+}
+.text1{
+  font-size: 28rpx;
+  font-weight: 700;
+  margin-left: 20rpx;
+  position: relative;
+  top: 20rpx;
+}
+#upload{
+  padding: 10rpx;
+  width: 180rpx;
+  font-size: 30rpx;
+  position: relative;
+  top: -25rpx;
+  right: 25rpx;
+  background-color: #f04f54;
+}
+image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 220rpx;
+}
+#publishbtn ,#resetbtn{
+  margin-top: 30rpx;
+  padding: 10rpx;
+  width: 90%;
+  border-radius: 30rpx;
+  background-color: #f04f54;
+}
+#map{
+  width: 100%;
+  margin: 20rpx 0;
+  height: 400rpx;
+}

@@ -1,0 +1,57 @@
+.container{
+  width: 90%;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx auto;
+  /* box-shadow: 3rpx 3rpx 5rpx 5rpx rgb(177, 176, 176); */
+}
+.imagebox{
+display:flex;
+height: 100%;/*重点，铺满全屏*/
+justify-content: center;
+align-items:center;
+}
+.imagebox image { 
+ width:370rpx;
+ height:280rpx;
+ border-radius: 20rpx;
+ box-shadow: 3rpx 3rpx 10rpx 10rpx rgb(177, 176, 176);
+ margin-top: 30rpx;
+}
+.title{
+  /* background-color: pink; */
+  width: 80%;
+  text-align: center;
+  margin: 20rpx auto;
+  font-weight: 700;
+  font-size: 38rpx;
+}
+.contleft{
+  font-size: 31rpx;
+  font-weight: 700;
+  margin-left: 42rpx;
+}
+.contright{
+  /* background-color: pink; */
+  width: 100%;
+  float: left;
+  font-size: 28rpx;
+  color: rgb(75, 74, 74);
+  margin-top: 10rpx;
+}
+.content{
+  width: 90%;
+  font-size: 30rpx;
+  border-top: 1rpx solid rgb(201, 201, 201);
+  border-bottom: 1rpx solid rgb(201, 201, 201);
+  padding: 20rpx 0;
+}
+#btn{
+  background-color: #f04f54;
+  margin: 40rpx 0;
+}
+.content image{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}

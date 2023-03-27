@@ -1,0 +1,18 @@
+<form bindsubmit="btnsub">
+  <view class="content">
+    <view class="text">小程序名称</view>
+    <view name="title" class="containe">兴农志愿服务</view>
+  </view>
+  <view class="content">
+    <view class="text" style="margin-right: 45rpx;">创作团队</view>
+    <view class="containe">笨笨熊工作室</view>
+  </view>
+  <view class="content">
+    <view class="text" style="margin-right: 48rpx;">当前版本</view>
+    <view class="containe">V1.0.0</view >
+  </view>
+  <!-- <view class="content">
+    <view class="text">所在村镇</view>
+    <input name="time" class="containe" placeholder="请输入所在村镇"></input>
+  </view> -->
+</form>

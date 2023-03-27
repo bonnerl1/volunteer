@@ -1,0 +1,17 @@
+<view class="main">
+  <view class="content" wx:for="{{datalist}}" wx:key="index">
+    <view class="content-img">
+      <image src="{{item.image}}"></image>
+    </view>
+    <view class="content-text">
+      <view class="title">{{item.title}}</view>
+      <view class="describe">{{item.content}}</view>
+      <view class="date">{{item.date}}</view>
+    </view>
+    <view class="btnview">
+      <button type="primary" id="publishbtn" bindtap="publishdata" data-id="{{item._id}}" disabled="{{item.show}}">发布</button>
+      <button type="primary" id="editbtn" bindtap="editdata" data-id="{{item._id}}">修改</button>
+      <button type="primary" id="deletebtn" bindtap="deletedata" data-id="{{item._id}}">删除</button>
+    </view>
+  </view>
+</view>

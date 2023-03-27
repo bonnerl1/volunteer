@@ -1,0 +1,14 @@
+<view class="rank">
+  <view class="title">
+    <image src="../../images/rank.png"></image>
+    <view class="text">积分排行榜</view>
+  </view>
+  <view class="user">
+    <view class="content" wx:for="{{list}}">
+      <view class="num">{{index+1}}.</view>
+      <image src="{{item.imageurl}}"></image>
+      <view class="name">{{item.username}}</view>
+      <view class="integral">所得积分：{{item.Integral}}</view>
+    </view>
+  </view>
+</view>

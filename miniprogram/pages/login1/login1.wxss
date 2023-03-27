@@ -1,0 +1,65 @@
+page {
+  background-color: #d36868;
+}
+.login1 image{
+  width: 170rpx;
+  height: 140rpx;
+  margin: 40rpx auto;
+  margin-bottom: 10rpx;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 35rpx;
+  margin-bottom: 30rpx;
+}
+.login1{
+  width: 70%;
+  height: 670rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  margin-top: 25%;
+}
+.img{
+  text-align:center;
+}
+.content{
+  width: 80%;
+  margin: 0 auto;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-top: 1rpx solid gray;
+  border-bottom: 1rpx solid gray;
+}
+.text{
+  float: left;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+.inp{
+  width: 70%;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  position: relative;
+  top: 30rpx;
+  left: 20rpx;
+}
+#btn{
+  width: 240rpx;
+  background-color: #f04f54;
+  color: #fff;
+  font-size: 30rpx;
+  margin-top: 50rpx;
+}
+.foot{
+  text-align: center;
+  color: #fff;
+  font-size: 25rpx;
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+}
+.contact{
+  margin-bottom: 15rpx;
+}

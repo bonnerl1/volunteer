@@ -1,0 +1,23 @@
+<view class="containe">
+  <view class="login1">
+    <view class="img">
+      <image src="../../images/manag.png"></image>
+    </view>
+    <view class="title">后台管理系统</view>
+    <form bindsubmit="btnsub">
+      <view class="content">
+        <view class="text">账号：</view>
+        <input name="username" class="inp" placeholder="请输入管理员账号"></input>
+      </view>
+      <view class="content">
+        <view class="text">密码：</view>
+        <input name="password" class="inp" placeholder="请输入管理员密码" type="password"></input>
+      </view>
+      <button id="btn" form-type="submit">登录</button>
+    </form>
+  </view>
+</view>
+<view class="foot">
+  <view class="contact">© 联系作者</view>
+  <view class="build">build 2022.06</view>
+</view>

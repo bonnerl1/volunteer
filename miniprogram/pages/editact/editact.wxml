@@ -1,0 +1,40 @@
+<form bindsubmit="btnsub">
+  <view class="container">
+  <view class="imagebox">
+    <image src="{{image}}" mode='scaleToFill'></image>
+  </view>
+  <button type="primary" id="imagbtn" bindtap="editimage">修改图片</button>
+  <input class="title" value="{{title}}" name="title"></input>
+  <view class="content">
+  <image src="../../images/detail/content.jpg"></image>
+    <view class="contleft">活动内容：</view>
+    <textarea class="contright" name="content" value="{{content}}" maxlength="300" auto-height="{{auto_height}}"bindblur='areablur' bindfocus='areafocus'></textarea>
+  </view>
+  <view class="content">
+    <image src="../../images/detail/place.png"></image>
+    <view class="contleft">活动地点：</view>
+    <input class="contright" name="place" value="{{place}}"></input>
+  </view>
+  <view class="content">
+    <image src="../../images/detail/date.jpg"></image>
+    <view class="contleft">活动时间：</view>
+    <input class="contright" value="{{date}}" name="date"></input>
+  </view>
+  <view class="content">
+    <image src="../../images/detail/contacts.png"></image>
+    <view class="contleft">联系人员：</view>
+    <input class="contright" value="{{contacts}}" name="contacts"></input>
+  </view>
+  <view class="content">
+    <image src="../../images/detail/phone.jpg"></image>
+    <view class="contleft">联系方式：</view>
+    <input class="contright" value="{{phone}}" name="phone"></input>
+  </view>
+  <view class="content">
+    <image src="../../images/detail/object.png"></image>
+    <view class="contleft">活动对象：</view>
+    <input class="contright" value="{{object}}" name="object"></input>
+  </view>
+  <button type="primary" id="btn" form-type="submit">点击修改</button>
+</view>
+</form>

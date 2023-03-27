@@ -1,0 +1,28 @@
+<form bindsubmit="btnsub">
+  <view class="content">
+    <view class="text" style="margin-right: 80rpx;">姓名</view>
+    <view name="title" class="containe">{{username}}</view>
+  </view>
+  <view class="content">
+    <view class="text">出生日期</view>
+    <input name="birth" class="containe" placeholder="请输入出生日期"></input>
+  </view>
+  <view class="content">
+    <view class="text">手机号码</view>
+    <input name="phone" class="containe" placeholder="请输入手机号码"></input>
+  </view>
+  <view class="content">
+    <view class="text">邮箱号码</view>
+    <input name="email" class="containe" placeholder="请输入邮箱号码"></input>
+  </view>
+  <view class="content">
+    <view class="text">所在村镇</view>
+    <input name="place" class="containe" placeholder="请输入所在村镇"></input>
+  </view>
+  <view class="content">
+    <view class="text">所任职务</view>
+    <input name="work" class="containe" placeholder="请输入所任职务"></input>
+  </view>
+  <button form-type="submit" type="primary" style="margin-bottom: 20rpx;" id="publishbtn">提交修改</button>
+  <button form-type="reset" type="primary" id="resetbtn">重置</button>
+</form>

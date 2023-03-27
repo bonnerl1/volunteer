@@ -1,0 +1,119 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "我的",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "登录界面",
+          "pathName": "pages/login/login",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "发布活动页面",
+          "pathName": "pages/publish/publish",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "志愿培训",
+          "pathName": "pages/train/train",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "活动详情",
+          "pathName": "pages/detail/detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "积分榜",
+          "pathName": "pages/Ranking/Ranking",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "注册",
+          "pathName": "pages/register/register",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "个人资料",
+          "pathName": "pages/means/means",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "关于我们",
+          "pathName": "pages/about/about",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "管理员登录界面",
+          "pathName": "pages/login1/login1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "后台管理系统",
+          "pathName": "pages/manage/manage",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "活动管理页面",
+          "pathName": "pages/actmang/actmang",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "活动修改界面",
+          "pathName": "pages/editact/editact",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "projectname": "%E4%B9%A1%E6%9D%91%E5%BF%97%E6%84%BF%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0",
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "libVersion": "2.24.5"
+}
